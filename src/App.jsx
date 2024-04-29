@@ -7,7 +7,7 @@ const App = () => {
   const [qandas,setQandas] = useState(questions);
   
   return (
-    <main}>
+    <main>
       <Questions qandas={qandas} />
     </main>
   )
